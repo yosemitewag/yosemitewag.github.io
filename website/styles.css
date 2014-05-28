@@ -1,0 +1,316 @@
+/* Reset css*/
+body, h1, h2, h3, h4, h5, h6,p, ul,ol,li{
+	margin: 0;
+	padding: 0;
+
+}
+	body{
+		background-color: #1A1A14;
+		outline-style:solid;
+		outline-color: #1A1A14;
+
+	}
+		h1 a{
+			font-size: 70px;
+			font-family:CARIBBEAN TOOL;
+			text-decoration: none;
+			color: #194719;
+			text-align: center;
+			display:block;
+			margin-left: 20px;
+
+		}
+			h2{
+				color:#1A1A14;
+				text-align: center;
+				font-size:40px;
+				font-family:CARIBBEAN TOOL;
+				margin: 5px;
+
+			}
+			/*bullets on index page*/
+		/*#MainContent ul li{
+			list-style-type: disc;
+			
+		}
+			#MainContent ul li h2{
+				text-align:left;
+			}*/
+				#MainContent ul{
+					width:170px;
+					margin:0 auto;
+				}	#homebullets ul{
+								display: block;
+								width:170px;
+								margin:0 auto;
+							}
+					#homebullets ul li{
+						list-style-type: disc;
+
+					}
+						#homebullets ul li h2{
+							text-align: left;
+
+						}
+
+							#homebullets ul{
+								display: block;
+								width:170px;
+								margin:0 auto;
+							}
+					/*bullets on about pg*/
+						#guestpoints li {
+							text-align:left ;
+							float:left;
+							font-size:20px;
+							width:750px;
+
+
+						}
+
+				
+
+					h3{
+						color:#1A1A14;
+						text-align: center;
+						font-size:30px;
+						font-family:CARIBBEAN TOOL;
+						margin: 5px;
+
+					}
+						h4{
+							color:#1A1A14;
+							text-align: center;
+							font-size:25px;
+							font-family:CARIBBEAN TOOL;
+							margin: 5px;
+
+						}
+							/*phone number*/
+							h5{
+								font-family: Agerian;
+								color:#1A1A14;
+								text-align: center;
+								margin: 10px;
+								font-size:50px;
+
+							}
+								h6{
+									font-family: Agerian;
+									color:#1A1A14;
+									text-align: center;
+									margin: 15 15 0 15;
+									font-size:25px;
+
+								}
+								
+						p{
+							margin: 20px;
+							text-indent: 50px;
+							font-size: 20px;
+
+						}
+							p img{
+								width:17%;
+								float:left;
+								margin:10px;
+
+							}
+								p:nth-child(even) img{
+									float:right;
+
+								}
+									.map1{
+										width:  450px;
+										height:400px;
+										text-align: center;
+										margin: 20px;
+										margin-left:70px ;
+									}
+										.map2{
+											width:  450px;
+											height:400px;
+											text-align: center;
+											margin: 20px;
+										}
+											.about{
+												width:30%;
+												height:40%;
+												padding: 10px;
+												margin:5px;
+												margin-left: 8px;
+											}
+												.livingroom{
+													margin:5px;
+													float:right;
+													height:120px ;												}
+
+
+
+	#Container{
+		margin: 0 auto;
+		background-color: #5C2E00;
+		width:80%;
+		min-height: 1100px
+
+	}
+		#Top{
+			width:100%;
+			background-color:#A31919;
+			color: #FFFFCC;
+			min-height: 125px;
+			position:relative;
+			z-index:1;
+
+		}
+			#MainContent{
+				width:100%;
+				background-color: 	#5C2E00;
+				float:left;
+				font-family: Agerian;
+				position:relative;
+				z-index:0;
+
+			}
+				#Bottom{
+					clear: both;
+					background-color:#A31919;
+					font-family:CARIBBEAN TOOL;
+					text-decoration: none;
+					color: #194719;
+					text-align: center;
+					margin:3px;
+					padding: 3px;
+
+				}
+						.clear{
+							clear: both;
+						}
+
+	/* Top Level Nav bar*/
+		
+		#Top ul{ 
+
+		}
+			#Top ul li{
+				list-style: none;
+				float: left;
+				position: relative;
+
+			}
+				#Top ul li a{
+				padding: 20px 30px;
+				background-color:#194719;
+				color: #FFFFCC;
+				display: inline-block;
+				text-decoration:none;
+				font-size: 28.05px;
+				text-transform: uppercase;
+				border-left: 2px solid #FFFFCC;
+				font-family: CARIBBEAN TOOL;
+
+				}
+					#Top ul li:first-child a{
+						border-left: none;
+
+					}
+						#Top ul li a:hover{
+						background-color: #FFFFCC;
+						color: #1A1A14;
+
+						}
+	/* Sub Level Nav*/
+		#Top ul li ul{
+			position: absolute;
+			top:72px;
+			left: -9999px;
+
+		}
+			#Top ul li:hover ul{
+				left:0;
+
+			}
+				#Top ul li ul li{
+					float: none;
+
+				}
+					#Top ul li ul li a{
+						border: none;
+						width: 228px;
+						font-size: 18px;
+						padding: 10px 20px;
+
+					}
+	/*Slideshow*/
+	.cycle-slideshow{
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+		.cycle-slideshow img{
+			width:300px;
+			height:230px;
+
+		}
+	/*background image in body*/
+		body{
+			background: url(images/forest2.jpg)
+			no-repeat;
+			display: inline-block;
+			background-size: 100%;
+			height:100%;
+			background-attachment: fixed;
+
+		}
+	/*resizing*/
+	@media screen and (max-width: 1000px){
+		#Container{
+			width:100%;
+			
+			}
+				#Top ul li{
+					position: relative;
+					z-index: 10;
+
+				}
+					#Top ul li:first-child{
+						position:relative;
+						z-index: 14;
+
+					}	
+	}
+
+	@media screen and (max-width: 999px){
+		#MainContent{
+			float:none;
+			width:100%;
+
+		}
+			#Top ul li{
+			float: none;
+
+			}
+				#Top ul li a{
+					width: 100%;
+					text-align: center;
+					border-left: none;
+					border-bottom:2px solid #FFFFCC;
+
+				}
+					#Top ul li ul{
+						position: absolute;
+
+					}
+						#Top ul li:hover ul{
+							position: relative;
+							top:0;
+
+						}
+							#Top ul li ul li a{
+								width:100%;
+								text-align: center;
+								background-color: #A31919;
+								color:#1A1A14;
+								border-left: 1px #A31919 solid;
+							}
+	
+	}
