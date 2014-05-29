@@ -1,152 +1,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
-			<title>Hello World Wide Web</title>
-			<link type= "text/css" rel="stylesheet" href= "css/styles.css">
-			<!--include jquary-->
+		<title>Yosemite High Sierra Bed and Breakfast</title>
+		<link type="text/css"rel="stylesheet"href="styles.css">
+		<!--include jquary-->
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-			<!--To include cycle two-->
+				<!--To include cycle two-->
 			<script src="http://malsup.github.io/jquery.cycle2.js"></script>
 			<!--carosile plug in-->
 			<script src="http://malsup.github.io/jquery.cycle2.carousel.js"></script>
-			<script type="text/javascript" src="scripts/jquery.fancybox.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function() {
-    $("#single_1").fancybox({
-          helpers: {
-              title : {
-                  type : 'float'
-              }
-          }
-      });
-
-    $("#single_2").fancybox({
-    	openEffect	: 'elastic',
-    	closeEffect	: 'elastic',
-
-    	helpers : {
-    		title : {
-    			type : 'inside'
-    		}
-    	}
-    });
-
-    $("#single_3").fancybox({
-    	openEffect : 'none',
-    	closeEffect	: 'none',
-    	helpers : {
-    		title : {
-    			type : 'outside'
-    		}
-    	}
-    });
-
-    $("#single_4").fancybox({
-    	helpers : {
-    		title : {
-    			type : 'over'
-    		}
-    	}
-    });
-});
-</script>
-<link type="text/css" rel="stylesheet" href="scripts/jquery.fancybox.css">
 	</head>
-	<body>
+		<body>
 			<div id="Container">
 				<header id="Top">
-					<h1><a id="Title" title="Back to home" href="index.html">Biology for Dummies</a></h1>
-					<p> Science for the rest of us.</p>
-					<ul>
-						<li><a title="Go home!" href="index.html">Home </a></li>
-								<li>
-								<a title="About Me" href="aboutme.html">About</a>
-									<ul>
-										<li><a title="About this Me" href="aboutme.html" >Me</a></li>
-										<li><a title="About this Site" href="aboutsite.html" >This Site</a></li>
-									</ul>
-								</li>
-									<li>
-										<a title="Get in touch" href="contact.html"> Contact</a>
-											<ul>
-												<li><a title="Contact Me" href= "contactme.html">Contact Me</a></li>
-												<li><a title="Contact Someone Who Cares" href="contactsomeone.html"> Someone Else</a></li>
-											</ul>
-									</li>
-											<li>
-												<a title="Stuff I Do" href="projects.html"> Projects</a>
-												<ul>
-													<li><a title="My Websites" href= "websites.html">Websites</a></li>
-													<li><a title="Games" href="games.html"> Games</a></li>
-												</ul>
-											</li>
-										
-											<li><a title="Only the greatest thing ever!" href="dinos.html">Dinos</a>
-												<ul>
-													<li><a title="El King" href="trex.html" >T-rex</a></li>
-													<li><a title="Jurassic World" href="jurassicworld.html" >Jurassic World</a></li>
-												</ul>
-											</li>	
-						</ul>	
-						<div class= "clear"></div>
+					<h1><a title="Back to home page"href="index.html">Yosemite High Sierra Bed and Breakfast</a></h1>
+					
+						<!--nav bar-->
+						<ul>
+							<li><a title="Home" href= "index.html">Home</a></li>
+						<li>
+						<a title="About" href="about.html"> About</a>
+						<ul>
+							<li><a target="_blank"title="About B&amp;B" href="aboutb&amp;b.html" >About B&amp;B</a></li>
+							<li><a target="_blank"title="Accommodations" href="accommodations.html" >Accommodations</a></li>
+						</ul>
+						</li>
+							<li><a target="_blank"title="Get in touch/reservations" href="contact.html">Contact</a></li>
+							<li><a target="_blank"title="Location/Directions" href="location/directions.html">Location</a><li>
+							<li><a target="_blank"title=" Reviews"	href="reviews.html">Reviews</a></li>
+							<div class= "clear"></div>
 				</header>
-				<div id= "MainContent">
-				<div id="fancyImages">
-					<a id="single_1" href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" title="Singapore from the air (Andrew Tan 2011)">
-					<img src="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_m.jpg" alt="" />
-					</a>
-						<a id="single_2" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg" title="forest mood (halina-anna)">
-							<img src="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_m.jpg" alt="" />
-						</a>
-							<a id="single_3" href="http://farm7.staticflickr.com/6115/6309906627_b5706c42e4_b.jpg" title="311111 AUTUMN AT OSBORNE (THE ANCIENT MATELOT)">
-								<img src="http://farm7.staticflickr.com/6115/6309906627_b5706c42e4_m.jpg" alt="" />
-							</a>
-								<a id="single_4" href="http://farm8.staticflickr.com/7412/8732133694_0c7e400022_b.jpg" title="Lake Shirakawako (白川湖) [Explored] (Yukimomiji@もみぢ)">
-									<img src="http://farm8.staticflickr.com/7412/8732133694_0c7e400022_m.jpg" alt="" />
-								</a>
-						
-					<div class="cycle-slideshow" 
-						data-cycle-timeout="1000"
-						data-cycle-fx=carousel
-						   data-cycle-next="#next"
-						data-cycle-prev="#prev"
-						data-cycle-pager="#pager"
-						data-cycle-pause-on-hover="true"
-					>
-					
-					<img src="http://malsup.github.io/images/p1.jpg">
-					<img src="http://malsup.github.io/images/p2.jpg">
-					<img src="http://malsup.github.io/images/p3.jpg">
-					<img src="http://malsup.github.io/images/p4.jpg">
-					<div class=center>
-						<a href=# "id"=prev>&lt;&lt; Prev </a>
-						<a href=#" id"=next> Next &gt;&gt; </a>
-					</div>
-					
+								<main id="MainContent">
+									<!--<img alt="Yosemite High Sierra Bed and Breakfast"src="images/house.jpg">-->
+										<div class="cycle-slideshow" 
+											data-cycle-timeout="1000"
+											data-cycle-fx=carousel
+											data-cycle-pause-on-hover="true"
+										>
+												<img src="images/mhouse230.jpg">
+												<img src="images/sunset5230.jpg">
+												<img src="images/proposal230.jpg">
+												<img src="images/images230.jpg">
+										</div>
+											<h2>Great Location!</h1>
+											<h3>Located inside the gates of</h2>
+											<h2>Yosemite National Park</h2>
+											<h3>Enjoy a spectacular sunset view from our spacious decks</h3>
+												<ul id="homebullets">
+											<li><h2>Quiet</h2></li>
+											<li><h2>Private</h2></li>
+												</ul>
+								
+													<p><img alt="Yosemite High Sierra Bed and Breakfast"src="images/mhousefront.jpg">Yosemite West High Sierra Bed and Breakfast/Yosemite High Sierra Bed and Breakfast is a beautiful mountain home nestled among oaks and pines high on a mountain ridge. This custom designed home was built in 1994; it was designed specifically as a Bed and Breakfast. The B&amp;B features hardwood floors, tile baths, large log beams and custom stonework. The Great Room features a vaulted ceiling, large windows, beautiful stonework and a large wood burning stove.</p>
+
+													<p><img alt="Sunset"src="images/sunset2.jpg"> Yosemite West is a small private community located at 6000 feet elevation, away from the heat and crowds of the valley, approximately halfway between Yosemite Valley and Wawona. The turnoff to Yosemite West is one quarter mile south of the junction of Hwy. 41 and Glacier Point Road. Drive fifteenminutes north to the spectacular Tunnel View or Yosemite Valley, 25 minutes east to Glacier Point, or 30 minutes south to Mariposa Grove of Giant Sequoias.</p>
+
+													<p><img alt="Tunnel View"src="images/tunnelview.jpg">Our family has been exploring Yosemite National Park extensively on foot and on skis for over thirty-five years. We've enjoyed sharing our passion and knowledge of the park with our guests for over eighteen years. Guests are provided with the use of a day pack, guidebooks and a variety of detailed maps during their stay. We offer an informal, relaxed atmosphere away from the crowds. Perfect ambiance for a honeymoon or anniversary get away. Relax and enjoy the silence and solitude of the mountains from our decks. Experience magnificent sunsets and a spectacular night sky blanketed with stars. Unwind and enjoy a unique opportunity to spend time sharing stories with guests from around the world, reading or listening to music.</p>
+
+													<p>We are happy to assist you in planning wonderful trips around the magnificent Yosemite National Park. Our experience over the years has allowed us to find secluded places even during peak season.</p>
+												<h4>Enjoy a unique Yosemite experience!
+												Make Yosemite your vacation destination</h4>
+								</main>
+														<footer id="Bottom">
+															<p>Designed by Christine White<p>
+														</footer>
 				</div>
-						<h2 class="redText ">Chapter 1</h2>
-						<h3>Chapter 1.1</h3>
-						<p> I'm on a boat</p>
-						<img alt="It's a picture of a boat... duh."src="images/boat.jpg":>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in dapibus quam. Cras in odio ut quam malesuada sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ligula magna, feugiat nec elit ut, feugiat sagittis nulla. Phasellus ut condimentum felis. Pellentesque ornare sapien sit amet eros suscipit, semper sodales diam tristique. Vestibulum ante leo, semper id diam sit amet, congue mattis libero. Aenean libero metus, ultricies ut dui sit amet, varius feugiat magna. Aenean nulla leo, varius in est et, varius volutpat lectus. Aliquam ultrices, elit id facilisis aliquam, augue velit imperdiet tortor, id porttitor risus augue fermentum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-						<h2 class="redText">Chapter 2</h2>
-						<h3>Chapter 2.1</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in dapibus quam. Cras in odio ut quam malesuada sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ligula magna, feugiat nec elit ut, feugiat sagittis nulla. Phasellus ut condimentum felis. Pellentesque ornare sapien sit amet eros suscipit, semper sodales diam tristique. Vestibulum ante leo, semper id diam sit amet, congue mattis libero. Aenean libero metus, ultricies ut dui sit amet, varius feugiat magna. Aenean nulla leo, varius in est et, varius volutpat lectus. Aliquam ultrices, elit id facilisis aliquam, augue velit imperdiet tortor, id porttitor risus augue fermentum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-						<h2>Chapter 3</h2>
-						<h3>Chapter 3.1</h3>	
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in dapibus quam. Cras in odio ut quam malesuada sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ligula magna, feugiat nec elit ut, feugiat sagittis nulla. Phasellus ut condimentum felis. Pellentesque ornare sapien sit amet eros suscipit, semper sodales diam tristique. Vestibulum ante leo, semper id diam sit amet, congue mattis libero. Aenean libero metus, ultricies ut dui sit amet, varius feugiat magna. Aenean nulla leo, varius in est et, varius volutpat lectus. Aliquam ultrices, elit id facilisis aliquam, augue velit imperdiet tortor, id porttitor risus augue fermentum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-				</div>
-					<aside id="SideBar">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in dapibus quam. Cras in odio ut quam malesuada sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ligula magna, feugiat nec elit ut, feugiat sagittis nulla. Phasellus ut condimentum felis. Pellentesque ornare sapien sit amet eros suscipit, semper sodales diam tristique. Vestibulum ante leo, semper id diam sit amet, congue mattis libero. Aenean libero metus, ultricies ut dui sit amet, varius feugiat magna. Aenean nulla leo, varius in est et, varius volutpat lectus. Aliquam ultrices, elit id facilisis aliquam, augue velit imperdiet tortor, id porttitor risus augue fermentum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-					</aside>
-						<footer id="Bottom">
-							<ul id="SocialLinks"> 
-								<li><a href="#"> Facebook</a></li>
-								<li><a href="#">Twitter</a></li>
-								<li><a href="#"> Linked In</a></li>
-							</ul>
-						<p class="clear"> Designed by me; also, <a target="_blank"title="Dan's JP3 Page" href="http://www.dansjp3page.com"> Tripadvisor</a> and enter the name Yosemite West High Sierra.</p>
-						</footer>
-			</div>
-	</body>
+		</body>
 </html>
