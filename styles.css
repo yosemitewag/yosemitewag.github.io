@@ -38,13 +38,14 @@ body, h1, h2, h3, h4, h5, h6,p, ul,ol,li{
 			}*/
 				
 				#homebullets ul{
-								display: block;
-								width:170px;
-								margin:0 auto;
-							}
+					display: block;
+					width:170px;
+					margin:0 auto;
+					list-style-type: none;
+				}
 					#homebullets ul li{
-						list-style-type: disc;
-
+						list-style-type: none;
+						list-style: none;
 					}
 						#homebullets ul li h2{
 							text-align: left;
@@ -55,7 +56,11 @@ body, h1, h2, h3, h4, h5, h6,p, ul,ol,li{
 								display: block;
 								width:170px;
 								margin:0 auto;
+
 							}
+								#homebullets li{
+									list-style: none;
+								}
 					/*bullets on about pg*/
 						#guestpoints li {
 							text-align:left ;
@@ -164,7 +169,8 @@ body, h1, h2, h3, h4, h5, h6,p, ul,ol,li{
 		margin: 0 auto;
 		background-color: #5C2E00;
 		width:80%;
-		min-height: 1100px
+		min-height: 1100px;
+
 
 	}
 		#Top{
